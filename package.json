@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/rifler/gulp-dresscode#readme",
   "dependencies": {
-    "gulp-util": "^3.0.7",
-    "through2": "^2.0.1",
-    "dresscodejs": "0.0.3"
+    "dresscodejs": "0.0.3",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
   }
 }

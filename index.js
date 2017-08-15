@@ -18,7 +18,7 @@ module.exports = function (opts) {
             return;
         }
 
-        compile(file, null, opts.debug)
+        compile(file.path, null, opts.debug)
             .then(function (text) {
                 file.contents = new Buffer(text);
                 cb(null, file);

@@ -25,4 +25,4 @@ gulp.task('build', () => {
 
 #### options
 
-See the Jossy [options](https://github.com/Kolyaj/Jossy#Использование-сборщика-из-nodejs)
+See the DressCode [options](https://github.com/Kolyaj/Jossy#Использование-сборщика-из-nodejs)
