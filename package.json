@@ -1,0 +1,30 @@
+{
+  "name": "gulp-dresscode",
+  "version": "1.0.0",
+  "description": "gulp plugin for DressCode bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rifler/gulp-dresscode.git"
+  },
+  "keywords": [
+    "dresscode",
+    "dresscodejs",
+    "gulpplugin",
+    "javascript"
+  ],
+  "author": "Dmitrii Kanatnikov (steve111@yandex.ru)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifler/gulp-dresscode/issues"
+  },
+  "homepage": "https://github.com/rifler/gulp-dresscode#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1",
+    "dresscodejs": "0.0.3"
+  }
+}
