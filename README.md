@@ -1,29 +1,27 @@
-# gulp-jossy
-> gulp plugin for [Jossy bundler](https://github.com/Kolyaj/Jossy "Jossy")
-
-*Issues with the output should be reported on the Jossy [issue tracker](https://github.com/Kolyaj/Jossy/issues).*
+# gulp-dresscode
+> gulp plugin for DressCode bundler
 
 ## Install
 
 ```
-$ npm install --save gulp-jossy
+$ npm install --save gulp-dresscode
 ```
 
 ## Usage
 ```js
 const gulp = require('gulp');
-const jossy = require('gulp-jossy');
+const dresscode = require('gulp-dresscode');
 
 gulp.task('build', () => {
     return gulp.src('./sources/*.js')
-        .pipe(jossy())
+        .pipe(dresscode())
         .pipe(gulp.dest('./public/js'));
 });
 ```
 
 ## API
 
-### jossy([options])
+### dresscode([options])
 
 #### options
 
