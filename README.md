@@ -1,5 +1,7 @@
 # gulp-dresscode
-> gulp plugin for DressCode bundler
+> gulp plugin for [DressCode bundler](https://github.com/Kolyaj/DressCodeJS)
+
+*Issues with the output should be reported on the DressCode [issue tracker](https://github.com/Kolyaj/DressCodeJS/issues).*
 
 ## Install
 
@@ -25,4 +27,6 @@ gulp.task('build', () => {
 
 #### options
 
-See the DressCode [options](https://github.com/Kolyaj/Jossy#Использование-сборщика-из-nodejs)
+See the DressCode [options](https://github.com/Kolyaj/DressCodeJS)
+
+##### options.debug
